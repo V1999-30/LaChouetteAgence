@@ -794,12 +794,23 @@ h4 {
 }
 
 .tc-white {
+    color: #F3976C!important;
+}
+
+#title_page_2{
     color: #000000!important;
+    text-align: center;
+}
+
+#text_page_2{
+    color: #000000!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    border: none;
 }
 
 .btn-atomic-tangerine:hover {
