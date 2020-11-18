@@ -512,9 +512,21 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#form_1{
+    text-align: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 .scrollToTop {
@@ -793,6 +805,7 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    border: none;
 }
 
 .ltc-white {
