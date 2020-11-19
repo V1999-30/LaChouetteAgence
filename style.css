@@ -512,6 +512,12 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#form_align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #form_1{
     text-align: center;
 }
@@ -760,6 +766,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -986,12 +993,14 @@ h4 {
         left: -1px;
         right: -1px;
     }
+
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+    
     .navbar-brand img {
         max-height: 40px;
         width: auto;
